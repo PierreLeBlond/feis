@@ -5,6 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte()],
+  base: "https://pierreleblond.github.io/feis/build",
   resolve: {
     alias: {
       $lib: path.resolve("./src/lib"),
