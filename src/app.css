@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --radius: 0.5rem;
@@ -16,19 +16,19 @@
     transform-style: preserve-3d;
     position: relative;
   }
-    .layer {
-      position: absolute;
-    }
-  
-    .base {
-      transform: translateZ(0);
-    }
+  .layer {
+    position: absolute;
+  }
 
-    .front {
-      transform: translateZ(5px) scale(0.5);
-    }
-  
-    .back {
-      transform: translateZ(-2px) scale(1.2);
-    }
+  .base {
+    transform: translateZ(0);
+  }
+
+  .front {
+    transform: translateZ(5px) scale(0.5);
+  }
+
+  .back {
+    transform: translateZ(-2px) scale(1.2);
+  }
 }

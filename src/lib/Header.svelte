@@ -1,9 +1,9 @@
 <script lang="ts">
-  import LightSwitch from "$lib/components/ui/LightSwitch.svelte";
+  import Navigation from "./navigation/Navigation.svelte";
   import { fade, fly } from "svelte/transition";
   import { createDialog, melt } from "@melt-ui/svelte";
-  import Menu from "lucide-svelte/icons/menu";
-  import Navigation from "./Navigation.svelte";
+  import { Menu } from "lucide-svelte";
+  import LightSwitch from "./components/ui/LightSwitch.svelte";
 
   const {
     elements: { trigger, portalled, overlay, content, title },
@@ -12,11 +12,11 @@
 </script>
 
 <header
-  class="z-50 fixed h-12 w-screen top-0 bg-stone-100 dark:bg-stone-800 flex justify-between items-center px-4 border-b-2 border-yellow-400"
+  class="fixed top-0 z-50 flex h-12 w-screen items-center justify-between border-b-2 border-yellow-400 bg-stone-100 px-4 dark:bg-stone-800"
 >
   <a href="#presentation">
     <svg
-      class="h-12 w-12 dark:fill-stone-100 fill-stone-900"
+      class="h-12 w-12 fill-stone-900 dark:fill-stone-100"
       viewBox="0 0 119 40"
     >
       <path
@@ -24,11 +24,11 @@
       />
     </svg>
   </a>
-  <ul class="hidden lg:flex gap-8">
+  <ul class="hidden gap-8 lg:flex">
     <Navigation></Navigation>
   </ul>
   <button class="lg:hidden" use:melt={$trigger}><Menu></Menu></button>
-  <div class="hidden lg:block scale-90">
+  <div class="hidden scale-90 lg:block">
     <LightSwitch></LightSwitch>
   </div>
 </header>
@@ -36,13 +36,13 @@
 {#if $open}
   <div use:melt={$portalled}>
     <div
-      class="fixed w-screen inset-0 z-50 bg-black/50"
+      class="fixed inset-0 z-50 w-screen bg-black/50"
       transition:fade={{ duration: 150 }}
       use:melt={$overlay}
     />
     <div
-      class="absolute left-0 top-0 z-50 h-screen w-3/4 max-w-[350px] bg-neutral-100 dark:bg-neutral-900 transition-colors duration-1000 p-6
-            shadow-lg focus:outline-none"
+      class="absolute left-0 top-0 z-50 h-screen w-3/4 max-w-[350px] bg-neutral-100 p-6 shadow-lg transition-colors duration-1000
+            focus:outline-none dark:bg-neutral-900"
       transition:fly={{
         x: -350,
         duration: 300,
@@ -50,13 +50,13 @@
       }}
       use:melt={$content}
     >
-      <div class="text-2xl font-bold pb-8" use:melt={$title}>Menu</div>
+      <div class="pb-8 text-2xl font-bold" use:melt={$title}>Menu</div>
 
       <ul class="flex flex-col gap-2">
         <Navigation></Navigation>
       </ul>
 
-      <div class="absolute w-full left-0 bottom-8 flex justify-center">
+      <div class="absolute bottom-8 left-0 flex w-full justify-center">
         <LightSwitch></LightSwitch>
       </div>
     </div>

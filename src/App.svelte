@@ -1,24 +1,24 @@
-<script>
+<script lang="ts">
   import "./app.css";
   import { ModeWatcher } from "mode-watcher";
-  import Presentation from "$lib/sections/Presentation.svelte";
-  import History from "$lib/sections/History.svelte";
-  import Background from "$lib/sections/Background.svelte";
-  import Buffer from "$lib/sections/Buffer.svelte";
-  import Header from "$lib/Header.svelte";
-  import Prestations from "$lib/sections/Prestations.svelte";
-  import Contact from "$lib/sections/Contact.svelte";
-  import Social from "$lib/sections/Social.svelte";
+  import Presentation from "./lib/sections/Presentation.svelte";
+  import History from "./lib/sections/History.svelte";
+  import Background from "./lib/background/Background.svelte";
+  import Buffer from "./lib/sections/Buffer.svelte";
+  import Header from "./lib/Header.svelte";
+  import Prestations from "./lib/sections/Prestations.svelte";
+  import Contact from "./lib/sections/Contact.svelte";
+  import Social from "./lib/sections/Social.svelte";
 </script>
 
 <ModeWatcher />
 
 <main
-  class="relative w-full h-full overflow-hidden transition-transform duration-300 font-display"
+  class="relative h-full w-full overflow-hidden font-display transition-transform duration-300"
 >
   <Header></Header>
   <div
-    class="relative parallax pt-12 h-full w-full overflow-y-auto overflow-x-hidden scroll-smooth"
+    class="parallax relative h-full w-full overflow-y-auto overflow-x-hidden scroll-smooth pt-12"
   >
     <Background></Background>
     <Presentation></Presentation>
