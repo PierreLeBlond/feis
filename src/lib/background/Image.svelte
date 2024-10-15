@@ -1,6 +1,6 @@
 <script lang="ts">
   export let url: string;
-  export let verticalUrl: string | null;
+  export let verticalUrl: string | null = null;
 </script>
 
 <div

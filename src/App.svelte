@@ -9,6 +9,28 @@
   import Prestations from "./lib/sections/Prestations.svelte";
   import Contact from "./lib/sections/Contact.svelte";
   import Social from "./lib/sections/Social.svelte";
+  import { setContext } from "svelte";
+  import { writable, type Writable } from "svelte/store";
+
+  const intersectedElement = writable<null | Element>(null);
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const entry = entries.find((entry) => entry.isIntersecting);
+      intersectedElement.set(entry?.target || null);
+    },
+    {
+      threshold: 0.5,
+    },
+  );
+
+  setContext<{
+    observer: IntersectionObserver;
+    intersectedElement: Writable<null | Element>;
+  }>("intersectionObserver", {
+    observer,
+    intersectedElement,
+  });
 </script>
 
 <ModeWatcher />
@@ -26,9 +48,9 @@
     <History></History>
     <Buffer>Quels genres d'événements ?</Buffer>
     <Prestations></Prestations>
-    <Buffer></Buffer>
+    <Buffer>J'ai un truc à vous dire !</Buffer>
     <Contact></Contact>
-    <Buffer></Buffer>
+    <Buffer>En attendant, où peut-on vous retrouver ?</Buffer>
     <Social></Social>
     <!--Foreground></Foreground-->
   </div>
