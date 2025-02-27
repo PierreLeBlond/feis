@@ -42,7 +42,7 @@
     />
     <div
       class="absolute left-0 top-0 z-50 h-screen w-3/4 max-w-[350px] bg-neutral-100 p-6 shadow-lg transition-colors duration-1000
-            focus:outline-none dark:bg-neutral-900"
+            focus:outline-hidden dark:bg-neutral-900"
       transition:fly={{
         x: -350,
         duration: 300,
