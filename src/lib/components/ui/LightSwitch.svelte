@@ -5,7 +5,7 @@
   import { toggleMode } from "mode-watcher";
 </script>
 
-<button class="flex" on:click={toggleMode}>
+<button class="flex" onclick={toggleMode}>
   <div
     class="flex h-8 w-8 items-center justify-center rounded-full bg-neutral-900 transition-colors duration-700 dark:bg-yellow-400"
   >

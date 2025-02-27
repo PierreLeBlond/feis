@@ -9,38 +9,44 @@
   import Prestations from "./lib/sections/Prestations.svelte";
   import Contact from "./lib/sections/Contact.svelte";
   import Social from "./lib/sections/Social.svelte";
-  import { setContext } from "svelte";
-  import { writable, type Writable } from "svelte/store";
+  import { onMount, setContext } from "svelte";
 
-  const intersectedElement = writable<null | Element>(null);
+  let intersectionObserver = $state<null | IntersectionObserver>(null);
+  let intersectedElement = $state<null | Element>(null);
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      const entry = entries.find((entry) => entry.isIntersecting);
-      intersectedElement.set(entry?.target || null);
-    },
-    {
-      threshold: 0.5,
-    },
-  );
+  onMount(() => {
+    intersectionObserver = new IntersectionObserver(
+      (entries) => {
+        const entry = entries.find((entry) => entry.isIntersecting);
+        intersectedElement = entry?.target || null;
+      },
+      {
+        threshold: 0.5,
+      },
+    );
+  });
 
   setContext<{
-    observer: IntersectionObserver;
-    intersectedElement: Writable<null | Element>;
+    observer: null | IntersectionObserver;
+    intersectedElement: null | Element;
   }>("intersectionObserver", {
-    observer,
-    intersectedElement,
+    get observer(): null | IntersectionObserver {
+      return intersectionObserver;
+    },
+    get intersectedElement(): null | Element {
+      return intersectedElement;
+    },
   });
 </script>
 
 <ModeWatcher />
 
 <main
-  class="relative h-full w-full overflow-hidden font-display transition-transform duration-300"
+  class="font-display relative h-full w-full overflow-hidden transition-transform duration-300"
 >
   <Header></Header>
   <div
-    class="parallax relative h-full w-full overflow-y-auto overflow-x-hidden scroll-smooth pt-12"
+    class="parallax relative h-full w-full overflow-x-hidden overflow-y-auto scroll-smooth pt-12"
   >
     <Background></Background>
     <Presentation></Presentation>

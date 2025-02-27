@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { fly, scale } from "svelte/transition";
 
-  let ready = false;
+  let ready = $state(false);
   onMount(() => {
     ready = true;
   });

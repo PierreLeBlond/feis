@@ -1,10 +1,15 @@
 <script lang="ts">
-  export let anchor: string;
+  interface Props {
+    anchor: string;
+    children?: import('svelte').Snippet;
+  }
+
+  let { anchor, children }: Props = $props();
 </script>
 
 <li class="flex">
   <a
     class="w-full font-bold transition-colors hover:text-yellow-700"
-    href={anchor}><slot></slot></a
+    href={anchor}>{@render children?.()}</a
   >
 </li>

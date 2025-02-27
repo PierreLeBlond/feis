@@ -1,6 +1,10 @@
 <script lang="ts">
-  export let url: string;
-  export let verticalUrl: string | null = null;
+  interface Props {
+    url: string;
+    verticalUrl?: string | null;
+  }
+
+  let { url, verticalUrl = null }: Props = $props();
 </script>
 
 <div

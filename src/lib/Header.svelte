@@ -39,7 +39,7 @@
       class="fixed inset-0 z-50 w-screen bg-black/50"
       transition:fade={{ duration: 150 }}
       use:melt={$overlay}
-    />
+></div>
     <div
       class="absolute left-0 top-0 z-50 h-screen w-3/4 max-w-[350px] bg-neutral-100 p-6 shadow-lg transition-colors duration-1000
             focus:outline-hidden dark:bg-neutral-900"
