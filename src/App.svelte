@@ -50,13 +50,13 @@
   >
     <Background></Background>
     <Presentation></Presentation>
-    <Buffer>Mais vous êtes qui ?</Buffer>
+    <Buffer>Mais qui sommes nous ?</Buffer>
     <History></History>
     <Buffer>Tout types d'événements ?</Buffer>
     <Prestations></Prestations>
-    <Buffer>J'ai pleins de questions pour vous !</Buffer>
+    <Buffer>Faisons connaissances !</Buffer>
     <Contact></Contact>
-    <Buffer>En attendant, on vous retrouves où ?</Buffer>
+    <Buffer>Suivez nos aventures !</Buffer>
     <Social></Social>
     <!--Foreground></Foreground-->
   </div>

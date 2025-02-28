@@ -8,7 +8,10 @@
   });
 </script>
 
-<section id="presentation" class="h-full w-full scroll-mt-12">
+<section
+  id="presentation"
+  class="shadow-vignette-light dark:shadow-vignette-dark h-full w-full scroll-mt-12"
+>
   <div
     class="fill-foreground dark:fill-accent flex flex-col items-center justify-between"
   >

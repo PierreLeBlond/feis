@@ -61,4 +61,7 @@
   --color-foreground: var(--color-stone-900);
 
   --color-accent: var(--color-yellow-400);
+
+  --shadow-vignette-dark: inset 0 0 40px 10px var(--color-foreground);
+  --shadow-vignette-light: inset 0 0 10px 0px var(--color-background);
 }

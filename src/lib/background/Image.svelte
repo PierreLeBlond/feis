@@ -1,21 +1,20 @@
 <script lang="ts">
   interface Props {
-    url: string;
-    verticalUrl?: string | null;
+    path: string;
+    verticalPath?: string | null;
   }
 
-  let { url, verticalUrl = null }: Props = $props();
+  let { path, verticalPath = null }: Props = $props();
 </script>
 
-<div
-  class="{verticalUrl &&
-    'hidden sm:block'} h-full w-full bg-cover bg-center bg-no-repeat shadow-[inset_0_0px_20px_0px_rgba(0,0,0,0.3)]"
-  style:background-image="url({url})"
-></div>
+<enhanced:img
+  class="{verticalPath && 'hidden sm:block'} h-full w-full object-cover"
+  src={path}
+/>
 
-{#if verticalUrl}
-  <div
-    class="h-full w-full bg-cover bg-center bg-no-repeat shadow-[inset_0_0px_20px_0px_rgba(0,0,0,0.3)] sm:hidden"
-    style:background-image="url({verticalUrl})"
-  ></div>
+{#if verticalPath}
+  <enhanced:img
+    class="h-full w-full object-cover sm:hidden"
+    src={verticalPath}
+  />
 {/if}

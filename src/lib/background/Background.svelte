@@ -1,33 +1,69 @@
 <script>
   import Image from "./Image.svelte";
-  import meli from "/backgrounds/meli.jpg";
-  import julien from "/backgrounds/julien.jpg";
-  import lucieNoLogo from "/backgrounds/lucie-no-logo.jpg";
-  import lucieNoLogoVertical from "/backgrounds/lucie-no-logo-vertical.jpg";
-  import pause from "/backgrounds/pause.jpg";
-  import back from "/backgrounds/back.jpg";
-  import coverVertical from "/backgrounds/cover-vertical.jpg";
-  import cover from "/backgrounds/cover.jpg";
-  import trompette from "/backgrounds/trompettes.jpg";
-  import lucie from "/backgrounds/lucie.jpg";
-  import lucieVertical from "/backgrounds/lucie-vertical.jpg";
-  import euro from "/backgrounds/euro.jpg";
-  import end from "/backgrounds/end.jpg";
+  import homeLight from "$assets/backgrounds/home-light.jpg?enhanced";
+  import historyLight from "$assets/backgrounds/history-light.jpg?enhanced";
+  import prestationsLight from "$assets/backgrounds/prestations-light.jpg?enhanced";
+  import prestationsLightVertical from "$assets/backgrounds/prestations-light-vertical.jpg?enhanced";
+  import contactLight from "$assets/backgrounds/contact-light.jpg?enhanced";
+  import socialLight from "$assets/backgrounds/social-light.jpg?enhanced";
+  import homeDarkVertical from "$assets/backgrounds/home-dark-vertical.jpg?enhanced";
+  import homeDark from "$assets/backgrounds/home-dark.jpg?enhanced";
+  import historyDark from "$assets/backgrounds/history-dark.jpg?enhanced";
+  import prestationsDark from "$assets/backgrounds/prestations-dark.jpg?enhanced";
+  import prestationsDarkVertical from "$assets/backgrounds/prestations-dark-vertical.jpg?enhanced";
+  import contactDark from "$assets/backgrounds/contact-dark.jpg?enhanced";
+  import socialDark from "$assets/backgrounds/social-dark.jpg?enhanced";
+
+  const backgrounds = {
+    light: [
+      {
+        horizontal: homeLight,
+      },
+      {
+        horizontal: historyLight,
+      },
+      {
+        horizontal: prestationsLight,
+        vertical: prestationsLightVertical,
+      },
+      {
+        horizontal: contactLight,
+      },
+      {
+        horizontal: socialLight,
+      },
+    ],
+    dark: [
+      {
+        horizontal: homeDark,
+        vertical: homeDarkVertical,
+      },
+      {
+        horizontal: historyDark,
+      },
+      {
+        horizontal: prestationsDark,
+        vertical: prestationsDarkVertical,
+      },
+      {
+        horizontal: contactDark,
+      },
+      {
+        horizontal: socialDark,
+      },
+    ],
+  };
 </script>
 
 <div class="layer back -z-10 w-full" style:height="calc(100vh - 2.75rem)">
   <div class="h-full w-full dark:hidden">
-    <Image url={meli}></Image>
-    <Image url={julien}></Image>
-    <Image url={lucieNoLogo} verticalUrl={lucieNoLogoVertical}></Image>
-    <Image url={pause}></Image>
-    <Image url={back}></Image>
+    {#each backgrounds.light as { horizontal, vertical }}
+      <Image path={horizontal} verticalPath={vertical}></Image>
+    {/each}
   </div>
   <div class="hidden h-full w-full dark:block">
-    <Image url={cover} verticalUrl={coverVertical}></Image>
-    <Image url={trompette}></Image>
-    <Image url={lucie} verticalUrl={lucieVertical}></Image>
-    <Image url={euro}></Image>
-    <Image url={end}></Image>
+    {#each backgrounds.dark as { horizontal, vertical }}
+      <Image path={horizontal} verticalPath={vertical}></Image>
+    {/each}
   </div>
 </div>

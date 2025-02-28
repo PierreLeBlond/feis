@@ -7,7 +7,7 @@
 
 <section
   id="history"
-  class="fill-foreground dark:fill-accent top-full flex h-full w-full scroll-mt-12 items-center justify-center"
+  class="fill-foreground dark:fill-accent shadow-vignette-light dark:shadow-vignette-dark top-full flex h-full w-full scroll-mt-12 items-center justify-center"
   bind:this={intersectionObserver.element}
 >
   {#if intersectionObserver.intersect}

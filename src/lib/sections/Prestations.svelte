@@ -16,7 +16,7 @@
 
 <section
   id="prestations"
-  class="top-[200%] flex h-full w-full scroll-mt-12 flex-col items-center justify-center gap-4"
+  class="shadow-vignette-light dark:shadow-vignette-dark top-[200%] flex h-full w-full scroll-mt-12 flex-col items-center justify-center gap-4"
   bind:this={intersectionObserver.element}
 >
   {#if intersectionObserver.intersect}

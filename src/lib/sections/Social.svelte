@@ -8,7 +8,7 @@
 
 <section
   id="social"
-  class="top-[400%] flex h-full w-full scroll-mt-12 items-center justify-center p-8"
+  class="shadow-vignette-light dark:shadow-vignette-dark top-[400%] flex h-full w-full scroll-mt-12 items-center justify-center p-8"
   bind:this={intersectionObserver.element}
 >
   {#if intersectionObserver.intersect}
@@ -46,7 +46,7 @@
         <p class="w-full pb-2 text-center font-bold">
           Tu joue du sax, du cuivre, de la flute, de la clarinette ou des
           percussions, ou bien tu souhaiterais apprendre ? Contacte nous sur les
-          réseaux sociaux pour nous rejoindre !
+          réseaux sociaux pour rejoindre la fanfare !
         </p>
         <div class="flex"></div>
       </div>
