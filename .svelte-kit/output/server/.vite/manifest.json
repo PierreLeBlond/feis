@@ -12,13 +12,13 @@
     "file": "_app/immutable/assets/contact-dark.BBTjHuvX.webp",
     "src": "_contact-dark.BBTjHuvX.webp"
   },
-  "_contact-dark.BF8cvjJY.jpg": {
-    "file": "_app/immutable/assets/contact-dark.BF8cvjJY.jpg",
-    "src": "_contact-dark.BF8cvjJY.jpg"
+  "_contact-dark.BF8cvjJY.jpeg": {
+    "file": "_app/immutable/assets/contact-dark.BF8cvjJY.jpeg",
+    "src": "_contact-dark.BF8cvjJY.jpeg"
   },
-  "_contact-dark.BGHJPRTn.jpg": {
-    "file": "_app/immutable/assets/contact-dark.BGHJPRTn.jpg",
-    "src": "_contact-dark.BGHJPRTn.jpg"
+  "_contact-dark.BGHJPRTn.jpeg": {
+    "file": "_app/immutable/assets/contact-dark.BGHJPRTn.jpeg",
+    "src": "_contact-dark.BGHJPRTn.jpeg"
   },
   "_contact-dark.BeV137EF.avif": {
     "file": "_app/immutable/assets/contact-dark.BeV137EF.avif",
@@ -36,9 +36,9 @@
     "file": "_app/immutable/assets/contact-light.Bp0-jxRD.avif",
     "src": "_contact-light.Bp0-jxRD.avif"
   },
-  "_contact-light.CI8qoGDD.jpg": {
-    "file": "_app/immutable/assets/contact-light.CI8qoGDD.jpg",
-    "src": "_contact-light.CI8qoGDD.jpg"
+  "_contact-light.CI8qoGDD.jpeg": {
+    "file": "_app/immutable/assets/contact-light.CI8qoGDD.jpeg",
+    "src": "_contact-light.CI8qoGDD.jpeg"
   },
   "_contact-light.ChhXyh_p.avif": {
     "file": "_app/immutable/assets/contact-light.ChhXyh_p.avif",
@@ -48,9 +48,9 @@
     "file": "_app/immutable/assets/contact-light.CxYDsEyf.webp",
     "src": "_contact-light.CxYDsEyf.webp"
   },
-  "_contact-light.DKJstNJE.jpg": {
-    "file": "_app/immutable/assets/contact-light.DKJstNJE.jpg",
-    "src": "_contact-light.DKJstNJE.jpg"
+  "_contact-light.DKJstNJE.jpeg": {
+    "file": "_app/immutable/assets/contact-light.DKJstNJE.jpeg",
+    "src": "_contact-light.DKJstNJE.jpeg"
   },
   "_contact-light.M7hAEwci.webp": {
     "file": "_app/immutable/assets/contact-light.M7hAEwci.webp",
@@ -68,13 +68,13 @@
     "file": "_app/immutable/assets/history-dark.BVksiOKT.webp",
     "src": "_history-dark.BVksiOKT.webp"
   },
-  "_history-dark.CKxdirso.jpg": {
-    "file": "_app/immutable/assets/history-dark.CKxdirso.jpg",
-    "src": "_history-dark.CKxdirso.jpg"
+  "_history-dark.CKxdirso.jpeg": {
+    "file": "_app/immutable/assets/history-dark.CKxdirso.jpeg",
+    "src": "_history-dark.CKxdirso.jpeg"
   },
-  "_history-dark.DIQWDZcC.jpg": {
-    "file": "_app/immutable/assets/history-dark.DIQWDZcC.jpg",
-    "src": "_history-dark.DIQWDZcC.jpg"
+  "_history-dark.DIQWDZcC.jpeg": {
+    "file": "_app/immutable/assets/history-dark.DIQWDZcC.jpeg",
+    "src": "_history-dark.DIQWDZcC.jpeg"
   },
   "_history-dark.Ub6sO1Ej.avif": {
     "file": "_app/immutable/assets/history-dark.Ub6sO1Ej.avif",
@@ -84,9 +84,9 @@
     "file": "_app/immutable/assets/history-dark.Z7FmR5Ga.avif",
     "src": "_history-dark.Z7FmR5Ga.avif"
   },
-  "_history-light.AtdVQpq1.jpg": {
-    "file": "_app/immutable/assets/history-light.AtdVQpq1.jpg",
-    "src": "_history-light.AtdVQpq1.jpg"
+  "_history-light.AtdVQpq1.jpeg": {
+    "file": "_app/immutable/assets/history-light.AtdVQpq1.jpeg",
+    "src": "_history-light.AtdVQpq1.jpeg"
   },
   "_history-light.BKzJbLVG.webp": {
     "file": "_app/immutable/assets/history-light.BKzJbLVG.webp",
@@ -100,9 +100,9 @@
     "file": "_app/immutable/assets/history-light.BTXhuAS7.avif",
     "src": "_history-light.BTXhuAS7.avif"
   },
-  "_history-light.WRFDSmO3.jpg": {
-    "file": "_app/immutable/assets/history-light.WRFDSmO3.jpg",
-    "src": "_history-light.WRFDSmO3.jpg"
+  "_history-light.WRFDSmO3.jpeg": {
+    "file": "_app/immutable/assets/history-light.WRFDSmO3.jpeg",
+    "src": "_history-light.WRFDSmO3.jpeg"
   },
   "_history-light.wMrCqiNo.webp": {
     "file": "_app/immutable/assets/history-light.wMrCqiNo.webp",
@@ -116,13 +116,13 @@
     "file": "_app/immutable/assets/home-dark-vertical.C7A1mzlg.avif",
     "src": "_home-dark-vertical.C7A1mzlg.avif"
   },
-  "_home-dark-vertical.Ct2oQ0qV.jpg": {
-    "file": "_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpg",
-    "src": "_home-dark-vertical.Ct2oQ0qV.jpg"
+  "_home-dark-vertical.Ct2oQ0qV.jpeg": {
+    "file": "_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpeg",
+    "src": "_home-dark-vertical.Ct2oQ0qV.jpeg"
   },
-  "_home-dark-vertical.D-OA8leQ.jpg": {
-    "file": "_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpg",
-    "src": "_home-dark-vertical.D-OA8leQ.jpg"
+  "_home-dark-vertical.D-OA8leQ.jpeg": {
+    "file": "_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpeg",
+    "src": "_home-dark-vertical.D-OA8leQ.jpeg"
   },
   "_home-dark-vertical.DkvGOsan.avif": {
     "file": "_app/immutable/assets/home-dark-vertical.DkvGOsan.avif",
@@ -136,9 +136,9 @@
     "file": "_app/immutable/assets/home-dark.B25jPbZF.avif",
     "src": "_home-dark.B25jPbZF.avif"
   },
-  "_home-dark.BOp-GP-G.jpg": {
-    "file": "_app/immutable/assets/home-dark.BOp-GP-G.jpg",
-    "src": "_home-dark.BOp-GP-G.jpg"
+  "_home-dark.BOp-GP-G.jpeg": {
+    "file": "_app/immutable/assets/home-dark.BOp-GP-G.jpeg",
+    "src": "_home-dark.BOp-GP-G.jpeg"
   },
   "_home-dark.Bv01Cm3J.webp": {
     "file": "_app/immutable/assets/home-dark.Bv01Cm3J.webp",
@@ -152,13 +152,13 @@
     "file": "_app/immutable/assets/home-dark.CSa-eeAW.avif",
     "src": "_home-dark.CSa-eeAW.avif"
   },
-  "_home-dark.D1elxFfa.jpg": {
-    "file": "_app/immutable/assets/home-dark.D1elxFfa.jpg",
-    "src": "_home-dark.D1elxFfa.jpg"
+  "_home-dark.D1elxFfa.jpeg": {
+    "file": "_app/immutable/assets/home-dark.D1elxFfa.jpeg",
+    "src": "_home-dark.D1elxFfa.jpeg"
   },
-  "_home-light.BZ5c3YeF.jpg": {
-    "file": "_app/immutable/assets/home-light.BZ5c3YeF.jpg",
-    "src": "_home-light.BZ5c3YeF.jpg"
+  "_home-light.BZ5c3YeF.jpeg": {
+    "file": "_app/immutable/assets/home-light.BZ5c3YeF.jpeg",
+    "src": "_home-light.BZ5c3YeF.jpeg"
   },
   "_home-light.D6Ru7PpE.webp": {
     "file": "_app/immutable/assets/home-light.D6Ru7PpE.webp",
@@ -176,9 +176,9 @@
     "file": "_app/immutable/assets/home-light.am4yCyqg.webp",
     "src": "_home-light.am4yCyqg.webp"
   },
-  "_home-light.xKLlr5di.jpg": {
-    "file": "_app/immutable/assets/home-light.xKLlr5di.jpg",
-    "src": "_home-light.xKLlr5di.jpg"
+  "_home-light.xKLlr5di.jpeg": {
+    "file": "_app/immutable/assets/home-light.xKLlr5di.jpeg",
+    "src": "_home-light.xKLlr5di.jpeg"
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -214,17 +214,17 @@
     "file": "_app/immutable/assets/prestations-dark-vertical.CBzydL5v.webp",
     "src": "_prestations-dark-vertical.CBzydL5v.webp"
   },
-  "_prestations-dark-vertical.DXQ3012M.jpg": {
-    "file": "_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpg",
-    "src": "_prestations-dark-vertical.DXQ3012M.jpg"
+  "_prestations-dark-vertical.DXQ3012M.jpeg": {
+    "file": "_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpeg",
+    "src": "_prestations-dark-vertical.DXQ3012M.jpeg"
   },
-  "_prestations-dark-vertical.JwIYyWBF.jpg": {
-    "file": "_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpg",
-    "src": "_prestations-dark-vertical.JwIYyWBF.jpg"
+  "_prestations-dark-vertical.JwIYyWBF.jpeg": {
+    "file": "_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpeg",
+    "src": "_prestations-dark-vertical.JwIYyWBF.jpeg"
   },
-  "_prestations-dark.B6gcm77k.jpg": {
-    "file": "_app/immutable/assets/prestations-dark.B6gcm77k.jpg",
-    "src": "_prestations-dark.B6gcm77k.jpg"
+  "_prestations-dark.B6gcm77k.jpeg": {
+    "file": "_app/immutable/assets/prestations-dark.B6gcm77k.jpeg",
+    "src": "_prestations-dark.B6gcm77k.jpeg"
   },
   "_prestations-dark.BppBHOrB.webp": {
     "file": "_app/immutable/assets/prestations-dark.BppBHOrB.webp",
@@ -238,9 +238,9 @@
     "file": "_app/immutable/assets/prestations-dark.CWQWkT6f.avif",
     "src": "_prestations-dark.CWQWkT6f.avif"
   },
-  "_prestations-dark.CcF-hsth.jpg": {
-    "file": "_app/immutable/assets/prestations-dark.CcF-hsth.jpg",
-    "src": "_prestations-dark.CcF-hsth.jpg"
+  "_prestations-dark.CcF-hsth.jpeg": {
+    "file": "_app/immutable/assets/prestations-dark.CcF-hsth.jpeg",
+    "src": "_prestations-dark.CcF-hsth.jpeg"
   },
   "_prestations-dark.qD6pX14X.avif": {
     "file": "_app/immutable/assets/prestations-dark.qD6pX14X.avif",
@@ -250,17 +250,17 @@
     "file": "_app/immutable/assets/prestations-light-vertical.B-vbi6I6.avif",
     "src": "_prestations-light-vertical.B-vbi6I6.avif"
   },
-  "_prestations-light-vertical.BE8Z52qf.jpg": {
-    "file": "_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpg",
-    "src": "_prestations-light-vertical.BE8Z52qf.jpg"
+  "_prestations-light-vertical.BE8Z52qf.jpeg": {
+    "file": "_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpeg",
+    "src": "_prestations-light-vertical.BE8Z52qf.jpeg"
   },
   "_prestations-light-vertical.CWT6zHBb.webp": {
     "file": "_app/immutable/assets/prestations-light-vertical.CWT6zHBb.webp",
     "src": "_prestations-light-vertical.CWT6zHBb.webp"
   },
-  "_prestations-light-vertical.CgxHpje6.jpg": {
-    "file": "_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpg",
-    "src": "_prestations-light-vertical.CgxHpje6.jpg"
+  "_prestations-light-vertical.CgxHpje6.jpeg": {
+    "file": "_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpeg",
+    "src": "_prestations-light-vertical.CgxHpje6.jpeg"
   },
   "_prestations-light-vertical.Ck0cdrqJ.webp": {
     "file": "_app/immutable/assets/prestations-light-vertical.Ck0cdrqJ.webp",
@@ -270,9 +270,9 @@
     "file": "_app/immutable/assets/prestations-light-vertical.D7pcgMOu.avif",
     "src": "_prestations-light-vertical.D7pcgMOu.avif"
   },
-  "_prestations-light.CXJ7OgQQ.jpg": {
-    "file": "_app/immutable/assets/prestations-light.CXJ7OgQQ.jpg",
-    "src": "_prestations-light.CXJ7OgQQ.jpg"
+  "_prestations-light.CXJ7OgQQ.jpeg": {
+    "file": "_app/immutable/assets/prestations-light.CXJ7OgQQ.jpeg",
+    "src": "_prestations-light.CXJ7OgQQ.jpeg"
   },
   "_prestations-light.CyqCBoGH.webp": {
     "file": "_app/immutable/assets/prestations-light.CyqCBoGH.webp",
@@ -290,13 +290,13 @@
     "file": "_app/immutable/assets/prestations-light.rH6VE0bh.avif",
     "src": "_prestations-light.rH6VE0bh.avif"
   },
-  "_prestations-light.xec_1y2R.jpg": {
-    "file": "_app/immutable/assets/prestations-light.xec_1y2R.jpg",
-    "src": "_prestations-light.xec_1y2R.jpg"
+  "_prestations-light.xec_1y2R.jpeg": {
+    "file": "_app/immutable/assets/prestations-light.xec_1y2R.jpeg",
+    "src": "_prestations-light.xec_1y2R.jpeg"
   },
-  "_social-dark.BGohrEtx.jpg": {
-    "file": "_app/immutable/assets/social-dark.BGohrEtx.jpg",
-    "src": "_social-dark.BGohrEtx.jpg"
+  "_social-dark.BGohrEtx.jpeg": {
+    "file": "_app/immutable/assets/social-dark.BGohrEtx.jpeg",
+    "src": "_social-dark.BGohrEtx.jpeg"
   },
   "_social-dark.C8oiMtmL.webp": {
     "file": "_app/immutable/assets/social-dark.C8oiMtmL.webp",
@@ -314,9 +314,9 @@
     "file": "_app/immutable/assets/social-dark.DhppiJ-A.avif",
     "src": "_social-dark.DhppiJ-A.avif"
   },
-  "_social-dark.DvHADRWW.jpg": {
-    "file": "_app/immutable/assets/social-dark.DvHADRWW.jpg",
-    "src": "_social-dark.DvHADRWW.jpg"
+  "_social-dark.DvHADRWW.jpeg": {
+    "file": "_app/immutable/assets/social-dark.DvHADRWW.jpeg",
+    "src": "_social-dark.DvHADRWW.jpeg"
   },
   "_social-light.BKWFk6eL.webp": {
     "file": "_app/immutable/assets/social-light.BKWFk6eL.webp",
@@ -330,17 +330,17 @@
     "file": "_app/immutable/assets/social-light.BqKKeZdl.webp",
     "src": "_social-light.BqKKeZdl.webp"
   },
-  "_social-light.CYJZniJx.jpg": {
-    "file": "_app/immutable/assets/social-light.CYJZniJx.jpg",
-    "src": "_social-light.CYJZniJx.jpg"
+  "_social-light.CYJZniJx.jpeg": {
+    "file": "_app/immutable/assets/social-light.CYJZniJx.jpeg",
+    "src": "_social-light.CYJZniJx.jpeg"
   },
   "_social-light.CiXEeoDN.avif": {
     "file": "_app/immutable/assets/social-light.CiXEeoDN.avif",
     "src": "_social-light.CiXEeoDN.avif"
   },
-  "_social-light.Sb_FRsY1.jpg": {
-    "file": "_app/immutable/assets/social-light.Sb_FRsY1.jpg",
-    "src": "_social-light.Sb_FRsY1.jpg"
+  "_social-light.Sb_FRsY1.jpeg": {
+    "file": "_app/immutable/assets/social-light.Sb_FRsY1.jpeg",
+    "src": "_social-light.Sb_FRsY1.jpeg"
   },
   "node_modules/.pnpm/@sveltejs+kit@2.17.3_@sveltejs+vite-plugin-svelte@5.0.3_svelte@5.20.5_vite@6.2.0_@types+node@_fgnvu7q35qjco6gx23anv42jkq/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
@@ -394,80 +394,80 @@
       "_app/immutable/assets/home-light.DMgZOSCG.avif",
       "_app/immutable/assets/home-light.am4yCyqg.webp",
       "_app/immutable/assets/home-light.D6Ru7PpE.webp",
-      "_app/immutable/assets/home-light.BZ5c3YeF.jpg",
-      "_app/immutable/assets/home-light.xKLlr5di.jpg",
+      "_app/immutable/assets/home-light.BZ5c3YeF.jpeg",
+      "_app/immutable/assets/home-light.xKLlr5di.jpeg",
       "_app/immutable/assets/history-light.BT-IbAtt.avif",
       "_app/immutable/assets/history-light.BTXhuAS7.avif",
       "_app/immutable/assets/history-light.wMrCqiNo.webp",
       "_app/immutable/assets/history-light.BKzJbLVG.webp",
-      "_app/immutable/assets/history-light.WRFDSmO3.jpg",
-      "_app/immutable/assets/history-light.AtdVQpq1.jpg",
+      "_app/immutable/assets/history-light.WRFDSmO3.jpeg",
+      "_app/immutable/assets/history-light.AtdVQpq1.jpeg",
       "_app/immutable/assets/prestations-light.rH6VE0bh.avif",
       "_app/immutable/assets/prestations-light.DmA-fyf2.avif",
       "_app/immutable/assets/prestations-light.CyqCBoGH.webp",
       "_app/immutable/assets/prestations-light.DrUmj88n.webp",
-      "_app/immutable/assets/prestations-light.xec_1y2R.jpg",
-      "_app/immutable/assets/prestations-light.CXJ7OgQQ.jpg",
+      "_app/immutable/assets/prestations-light.xec_1y2R.jpeg",
+      "_app/immutable/assets/prestations-light.CXJ7OgQQ.jpeg",
       "_app/immutable/assets/prestations-light-vertical.B-vbi6I6.avif",
       "_app/immutable/assets/prestations-light-vertical.D7pcgMOu.avif",
       "_app/immutable/assets/prestations-light-vertical.CWT6zHBb.webp",
       "_app/immutable/assets/prestations-light-vertical.Ck0cdrqJ.webp",
-      "_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpg",
-      "_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpg",
+      "_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpeg",
+      "_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpeg",
       "_app/immutable/assets/contact-light.ChhXyh_p.avif",
       "_app/immutable/assets/contact-light.Bp0-jxRD.avif",
       "_app/immutable/assets/contact-light.CxYDsEyf.webp",
       "_app/immutable/assets/contact-light.M7hAEwci.webp",
-      "_app/immutable/assets/contact-light.DKJstNJE.jpg",
-      "_app/immutable/assets/contact-light.CI8qoGDD.jpg",
+      "_app/immutable/assets/contact-light.DKJstNJE.jpeg",
+      "_app/immutable/assets/contact-light.CI8qoGDD.jpeg",
       "_app/immutable/assets/social-light.CiXEeoDN.avif",
       "_app/immutable/assets/social-light.BSISuY0i.avif",
       "_app/immutable/assets/social-light.BKWFk6eL.webp",
       "_app/immutable/assets/social-light.BqKKeZdl.webp",
-      "_app/immutable/assets/social-light.Sb_FRsY1.jpg",
-      "_app/immutable/assets/social-light.CYJZniJx.jpg",
+      "_app/immutable/assets/social-light.Sb_FRsY1.jpeg",
+      "_app/immutable/assets/social-light.CYJZniJx.jpeg",
       "_app/immutable/assets/home-dark-vertical.DkvGOsan.avif",
       "_app/immutable/assets/home-dark-vertical.C7A1mzlg.avif",
       "_app/immutable/assets/home-dark-vertical.ubEG55R1.webp",
       "_app/immutable/assets/home-dark-vertical.C4XVxaXj.webp",
-      "_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpg",
-      "_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpg",
+      "_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpeg",
+      "_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpeg",
       "_app/immutable/assets/home-dark.CSa-eeAW.avif",
       "_app/immutable/assets/home-dark.B25jPbZF.avif",
       "_app/immutable/assets/home-dark.Bv01Cm3J.webp",
       "_app/immutable/assets/home-dark.BvqUuP6G.webp",
-      "_app/immutable/assets/home-dark.BOp-GP-G.jpg",
-      "_app/immutable/assets/home-dark.D1elxFfa.jpg",
+      "_app/immutable/assets/home-dark.BOp-GP-G.jpeg",
+      "_app/immutable/assets/home-dark.D1elxFfa.jpeg",
       "_app/immutable/assets/history-dark.Ub6sO1Ej.avif",
       "_app/immutable/assets/history-dark.Z7FmR5Ga.avif",
       "_app/immutable/assets/history-dark.BDIbbK_1.webp",
       "_app/immutable/assets/history-dark.BVksiOKT.webp",
-      "_app/immutable/assets/history-dark.DIQWDZcC.jpg",
-      "_app/immutable/assets/history-dark.CKxdirso.jpg",
+      "_app/immutable/assets/history-dark.DIQWDZcC.jpeg",
+      "_app/immutable/assets/history-dark.CKxdirso.jpeg",
       "_app/immutable/assets/prestations-dark.qD6pX14X.avif",
       "_app/immutable/assets/prestations-dark.CWQWkT6f.avif",
       "_app/immutable/assets/prestations-dark.C0pip4z2.webp",
       "_app/immutable/assets/prestations-dark.BppBHOrB.webp",
-      "_app/immutable/assets/prestations-dark.B6gcm77k.jpg",
-      "_app/immutable/assets/prestations-dark.CcF-hsth.jpg",
+      "_app/immutable/assets/prestations-dark.B6gcm77k.jpeg",
+      "_app/immutable/assets/prestations-dark.CcF-hsth.jpeg",
       "_app/immutable/assets/prestations-dark-vertical.0lB6EfET.avif",
       "_app/immutable/assets/prestations-dark-vertical.B9p3-vQX.avif",
       "_app/immutable/assets/prestations-dark-vertical.B7AEouYX.webp",
       "_app/immutable/assets/prestations-dark-vertical.CBzydL5v.webp",
-      "_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpg",
-      "_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpg",
+      "_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpeg",
+      "_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpeg",
       "_app/immutable/assets/contact-dark.CbOvcB0h.avif",
       "_app/immutable/assets/contact-dark.BeV137EF.avif",
       "_app/immutable/assets/contact-dark.BBTjHuvX.webp",
       "_app/immutable/assets/contact-dark.ChaNOGN1.webp",
-      "_app/immutable/assets/contact-dark.BF8cvjJY.jpg",
-      "_app/immutable/assets/contact-dark.BGHJPRTn.jpg",
+      "_app/immutable/assets/contact-dark.BF8cvjJY.jpeg",
+      "_app/immutable/assets/contact-dark.BGHJPRTn.jpeg",
       "_app/immutable/assets/social-dark.DhppiJ-A.avif",
       "_app/immutable/assets/social-dark.CnQnOMkM.avif",
       "_app/immutable/assets/social-dark.C8oiMtmL.webp",
       "_app/immutable/assets/social-dark.DPvcYjaL.webp",
-      "_app/immutable/assets/social-dark.DvHADRWW.jpg",
-      "_app/immutable/assets/social-dark.BGohrEtx.jpg"
+      "_app/immutable/assets/social-dark.DvHADRWW.jpeg",
+      "_app/immutable/assets/social-dark.BGohrEtx.jpeg"
     ]
   }
 }

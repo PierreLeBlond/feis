@@ -432,156 +432,156 @@ function Image($$payload, $$props) {
 }
 const homeLight = {
   sources: {
-    avif: "/_app/immutable/assets/home-light.Dupv9Xte.avif 1x, /_app/immutable/assets/home-light.DMgZOSCG.avif 2x",
-    webp: "/_app/immutable/assets/home-light.am4yCyqg.webp 1x, /_app/immutable/assets/home-light.D6Ru7PpE.webp 2x",
-    jpeg: "/_app/immutable/assets/home-light.BZ5c3YeF.jpg 1x, /_app/immutable/assets/home-light.xKLlr5di.jpg 2x"
+    avif: "/_app/immutable/assets/home-light.Dupv9Xte.avif 2784w, /_app/immutable/assets/home-light.DMgZOSCG.avif 5568w",
+    webp: "/_app/immutable/assets/home-light.am4yCyqg.webp 2784w, /_app/immutable/assets/home-light.D6Ru7PpE.webp 5568w",
+    jpeg: "/_app/immutable/assets/home-light.BZ5c3YeF.jpeg 2784w, /_app/immutable/assets/home-light.xKLlr5di.jpeg 5568w"
   },
   img: {
-    src: "/_app/immutable/assets/home-light.xKLlr5di.jpg",
+    src: "/_app/immutable/assets/home-light.xKLlr5di.jpeg",
     w: 5568,
     h: 3128
   }
 };
 const historyLight = {
   sources: {
-    avif: "/_app/immutable/assets/history-light.BT-IbAtt.avif 1x, /_app/immutable/assets/history-light.BTXhuAS7.avif 1.9995064165844028x",
-    webp: "/_app/immutable/assets/history-light.wMrCqiNo.webp 1x, /_app/immutable/assets/history-light.BKzJbLVG.webp 1.9995064165844028x",
-    jpeg: "/_app/immutable/assets/history-light.WRFDSmO3.jpg 1x, /_app/immutable/assets/history-light.AtdVQpq1.jpg 1.9995064165844028x"
+    avif: "/_app/immutable/assets/history-light.BT-IbAtt.avif 2026w, /_app/immutable/assets/history-light.BTXhuAS7.avif 4051w",
+    webp: "/_app/immutable/assets/history-light.wMrCqiNo.webp 2026w, /_app/immutable/assets/history-light.BKzJbLVG.webp 4051w",
+    jpeg: "/_app/immutable/assets/history-light.WRFDSmO3.jpeg 2026w, /_app/immutable/assets/history-light.AtdVQpq1.jpeg 4051w"
   },
   img: {
-    src: "/_app/immutable/assets/history-light.AtdVQpq1.jpg",
+    src: "/_app/immutable/assets/history-light.AtdVQpq1.jpeg",
     w: 4051,
     h: 2683
   }
 };
 const prestationsLight = {
   sources: {
-    avif: "/_app/immutable/assets/prestations-light.rH6VE0bh.avif 1x, /_app/immutable/assets/prestations-light.DmA-fyf2.avif 1.9995847176079735x",
-    webp: "/_app/immutable/assets/prestations-light.CyqCBoGH.webp 1x, /_app/immutable/assets/prestations-light.DrUmj88n.webp 1.9995847176079735x",
-    jpeg: "/_app/immutable/assets/prestations-light.xec_1y2R.jpg 1x, /_app/immutable/assets/prestations-light.CXJ7OgQQ.jpg 1.9995847176079735x"
+    avif: "/_app/immutable/assets/prestations-light.rH6VE0bh.avif 2408w, /_app/immutable/assets/prestations-light.DmA-fyf2.avif 4815w",
+    webp: "/_app/immutable/assets/prestations-light.CyqCBoGH.webp 2408w, /_app/immutable/assets/prestations-light.DrUmj88n.webp 4815w",
+    jpeg: "/_app/immutable/assets/prestations-light.xec_1y2R.jpeg 2408w, /_app/immutable/assets/prestations-light.CXJ7OgQQ.jpeg 4815w"
   },
   img: {
-    src: "/_app/immutable/assets/prestations-light.CXJ7OgQQ.jpg",
+    src: "/_app/immutable/assets/prestations-light.CXJ7OgQQ.jpeg",
     w: 4815,
     h: 3214
   }
 };
 const prestationsLightVertical = {
   sources: {
-    avif: "/_app/immutable/assets/prestations-light-vertical.B-vbi6I6.avif 1x, /_app/immutable/assets/prestations-light-vertical.D7pcgMOu.avif 2x",
-    webp: "/_app/immutable/assets/prestations-light-vertical.CWT6zHBb.webp 1x, /_app/immutable/assets/prestations-light-vertical.Ck0cdrqJ.webp 2x",
-    jpeg: "/_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpg 1x, /_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpg 2x"
+    avif: "/_app/immutable/assets/prestations-light-vertical.B-vbi6I6.avif 930w, /_app/immutable/assets/prestations-light-vertical.D7pcgMOu.avif 1860w",
+    webp: "/_app/immutable/assets/prestations-light-vertical.CWT6zHBb.webp 930w, /_app/immutable/assets/prestations-light-vertical.Ck0cdrqJ.webp 1860w",
+    jpeg: "/_app/immutable/assets/prestations-light-vertical.CgxHpje6.jpeg 930w, /_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpeg 1860w"
   },
   img: {
-    src: "/_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpg",
+    src: "/_app/immutable/assets/prestations-light-vertical.BE8Z52qf.jpeg",
     w: 1860,
     h: 3206
   }
 };
 const contactLight = {
   sources: {
-    avif: "/_app/immutable/assets/contact-light.ChhXyh_p.avif 1x, /_app/immutable/assets/contact-light.Bp0-jxRD.avif 2x",
-    webp: "/_app/immutable/assets/contact-light.CxYDsEyf.webp 1x, /_app/immutable/assets/contact-light.M7hAEwci.webp 2x",
-    jpeg: "/_app/immutable/assets/contact-light.DKJstNJE.jpg 1x, /_app/immutable/assets/contact-light.CI8qoGDD.jpg 2x"
+    avif: "/_app/immutable/assets/contact-light.ChhXyh_p.avif 810w, /_app/immutable/assets/contact-light.Bp0-jxRD.avif 1620w",
+    webp: "/_app/immutable/assets/contact-light.CxYDsEyf.webp 810w, /_app/immutable/assets/contact-light.M7hAEwci.webp 1620w",
+    jpeg: "/_app/immutable/assets/contact-light.DKJstNJE.jpeg 810w, /_app/immutable/assets/contact-light.CI8qoGDD.jpeg 1620w"
   },
   img: {
-    src: "/_app/immutable/assets/contact-light.CI8qoGDD.jpg",
+    src: "/_app/immutable/assets/contact-light.CI8qoGDD.jpeg",
     w: 1620,
     h: 1080
   }
 };
 const socialLight = {
   sources: {
-    avif: "/_app/immutable/assets/social-light.CiXEeoDN.avif 1x, /_app/immutable/assets/social-light.BSISuY0i.avif 2x",
-    webp: "/_app/immutable/assets/social-light.BKWFk6eL.webp 1x, /_app/immutable/assets/social-light.BqKKeZdl.webp 2x",
-    jpeg: "/_app/immutable/assets/social-light.Sb_FRsY1.jpg 1x, /_app/immutable/assets/social-light.CYJZniJx.jpg 2x"
+    avif: "/_app/immutable/assets/social-light.CiXEeoDN.avif 2160w, /_app/immutable/assets/social-light.BSISuY0i.avif 4320w",
+    webp: "/_app/immutable/assets/social-light.BKWFk6eL.webp 2160w, /_app/immutable/assets/social-light.BqKKeZdl.webp 4320w",
+    jpeg: "/_app/immutable/assets/social-light.Sb_FRsY1.jpeg 2160w, /_app/immutable/assets/social-light.CYJZniJx.jpeg 4320w"
   },
   img: {
-    src: "/_app/immutable/assets/social-light.CYJZniJx.jpg",
+    src: "/_app/immutable/assets/social-light.CYJZniJx.jpeg",
     w: 4320,
     h: 3240
   }
 };
 const homeDarkVertical = {
   sources: {
-    avif: "/_app/immutable/assets/home-dark-vertical.DkvGOsan.avif 1x, /_app/immutable/assets/home-dark-vertical.C7A1mzlg.avif 2x",
-    webp: "/_app/immutable/assets/home-dark-vertical.ubEG55R1.webp 1x, /_app/immutable/assets/home-dark-vertical.C4XVxaXj.webp 2x",
-    jpeg: "/_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpg 1x, /_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpg 2x"
+    avif: "/_app/immutable/assets/home-dark-vertical.DkvGOsan.avif 123w, /_app/immutable/assets/home-dark-vertical.C7A1mzlg.avif 246w",
+    webp: "/_app/immutable/assets/home-dark-vertical.ubEG55R1.webp 123w, /_app/immutable/assets/home-dark-vertical.C4XVxaXj.webp 246w",
+    jpeg: "/_app/immutable/assets/home-dark-vertical.D-OA8leQ.jpeg 123w, /_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpeg 246w"
   },
   img: {
-    src: "/_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpg",
+    src: "/_app/immutable/assets/home-dark-vertical.Ct2oQ0qV.jpeg",
     w: 246,
     h: 800
   }
 };
 const homeDark = {
   sources: {
-    avif: "/_app/immutable/assets/home-dark.CSa-eeAW.avif 1x, /_app/immutable/assets/home-dark.B25jPbZF.avif 2x",
-    webp: "/_app/immutable/assets/home-dark.Bv01Cm3J.webp 1x, /_app/immutable/assets/home-dark.BvqUuP6G.webp 2x",
-    jpeg: "/_app/immutable/assets/home-dark.BOp-GP-G.jpg 1x, /_app/immutable/assets/home-dark.D1elxFfa.jpg 2x"
+    avif: "/_app/immutable/assets/home-dark.CSa-eeAW.avif 500w, /_app/immutable/assets/home-dark.B25jPbZF.avif 1000w",
+    webp: "/_app/immutable/assets/home-dark.Bv01Cm3J.webp 500w, /_app/immutable/assets/home-dark.BvqUuP6G.webp 1000w",
+    jpeg: "/_app/immutable/assets/home-dark.BOp-GP-G.jpeg 500w, /_app/immutable/assets/home-dark.D1elxFfa.jpeg 1000w"
   },
   img: {
-    src: "/_app/immutable/assets/home-dark.D1elxFfa.jpg",
+    src: "/_app/immutable/assets/home-dark.D1elxFfa.jpeg",
     w: 1e3,
     h: 800
   }
 };
 const historyDark = {
   sources: {
-    avif: "/_app/immutable/assets/history-dark.Ub6sO1Ej.avif 1x, /_app/immutable/assets/history-dark.Z7FmR5Ga.avif 1.9995489400090212x",
-    webp: "/_app/immutable/assets/history-dark.BDIbbK_1.webp 1x, /_app/immutable/assets/history-dark.BVksiOKT.webp 1.9995489400090212x",
-    jpeg: "/_app/immutable/assets/history-dark.DIQWDZcC.jpg 1x, /_app/immutable/assets/history-dark.CKxdirso.jpg 1.9995489400090212x"
+    avif: "/_app/immutable/assets/history-dark.Ub6sO1Ej.avif 2217w, /_app/immutable/assets/history-dark.Z7FmR5Ga.avif 4433w",
+    webp: "/_app/immutable/assets/history-dark.BDIbbK_1.webp 2217w, /_app/immutable/assets/history-dark.BVksiOKT.webp 4433w",
+    jpeg: "/_app/immutable/assets/history-dark.DIQWDZcC.jpeg 2217w, /_app/immutable/assets/history-dark.CKxdirso.jpeg 4433w"
   },
   img: {
-    src: "/_app/immutable/assets/history-dark.CKxdirso.jpg",
+    src: "/_app/immutable/assets/history-dark.CKxdirso.jpeg",
     w: 4433,
     h: 2936
   }
 };
 const prestationsDark = {
   sources: {
-    avif: "/_app/immutable/assets/prestations-dark.qD6pX14X.avif 1x, /_app/immutable/assets/prestations-dark.CWQWkT6f.avif 2x",
-    webp: "/_app/immutable/assets/prestations-dark.C0pip4z2.webp 1x, /_app/immutable/assets/prestations-dark.BppBHOrB.webp 2x",
-    jpeg: "/_app/immutable/assets/prestations-dark.B6gcm77k.jpg 1x, /_app/immutable/assets/prestations-dark.CcF-hsth.jpg 2x"
+    avif: "/_app/immutable/assets/prestations-dark.qD6pX14X.avif 2332w, /_app/immutable/assets/prestations-dark.CWQWkT6f.avif 4664w",
+    webp: "/_app/immutable/assets/prestations-dark.C0pip4z2.webp 2332w, /_app/immutable/assets/prestations-dark.BppBHOrB.webp 4664w",
+    jpeg: "/_app/immutable/assets/prestations-dark.B6gcm77k.jpeg 2332w, /_app/immutable/assets/prestations-dark.CcF-hsth.jpeg 4664w"
   },
   img: {
-    src: "/_app/immutable/assets/prestations-dark.CcF-hsth.jpg",
+    src: "/_app/immutable/assets/prestations-dark.CcF-hsth.jpeg",
     w: 4664,
     h: 2623
   }
 };
 const prestationsDarkVertical = {
   sources: {
-    avif: "/_app/immutable/assets/prestations-dark-vertical.0lB6EfET.avif 1x, /_app/immutable/assets/prestations-dark-vertical.B9p3-vQX.avif 2x",
-    webp: "/_app/immutable/assets/prestations-dark-vertical.B7AEouYX.webp 1x, /_app/immutable/assets/prestations-dark-vertical.CBzydL5v.webp 2x",
-    jpeg: "/_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpg 1x, /_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpg 2x"
+    avif: "/_app/immutable/assets/prestations-dark-vertical.0lB6EfET.avif 626w, /_app/immutable/assets/prestations-dark-vertical.B9p3-vQX.avif 1252w",
+    webp: "/_app/immutable/assets/prestations-dark-vertical.B7AEouYX.webp 626w, /_app/immutable/assets/prestations-dark-vertical.CBzydL5v.webp 1252w",
+    jpeg: "/_app/immutable/assets/prestations-dark-vertical.DXQ3012M.jpeg 626w, /_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpeg 1252w"
   },
   img: {
-    src: "/_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpg",
+    src: "/_app/immutable/assets/prestations-dark-vertical.JwIYyWBF.jpeg",
     w: 1252,
     h: 2612
   }
 };
 const contactDark = {
   sources: {
-    avif: "/_app/immutable/assets/contact-dark.CbOvcB0h.avif 1x, /_app/immutable/assets/contact-dark.BeV137EF.avif 2x",
-    webp: "/_app/immutable/assets/contact-dark.BBTjHuvX.webp 1x, /_app/immutable/assets/contact-dark.ChaNOGN1.webp 2x",
-    jpeg: "/_app/immutable/assets/contact-dark.BF8cvjJY.jpg 1x, /_app/immutable/assets/contact-dark.BGHJPRTn.jpg 2x"
+    avif: "/_app/immutable/assets/contact-dark.CbOvcB0h.avif 810w, /_app/immutable/assets/contact-dark.BeV137EF.avif 1620w",
+    webp: "/_app/immutable/assets/contact-dark.BBTjHuvX.webp 810w, /_app/immutable/assets/contact-dark.ChaNOGN1.webp 1620w",
+    jpeg: "/_app/immutable/assets/contact-dark.BF8cvjJY.jpeg 810w, /_app/immutable/assets/contact-dark.BGHJPRTn.jpeg 1620w"
   },
   img: {
-    src: "/_app/immutable/assets/contact-dark.BGHJPRTn.jpg",
+    src: "/_app/immutable/assets/contact-dark.BGHJPRTn.jpeg",
     w: 1620,
     h: 1080
   }
 };
 const socialDark = {
   sources: {
-    avif: "/_app/immutable/assets/social-dark.DhppiJ-A.avif 1x, /_app/immutable/assets/social-dark.CnQnOMkM.avif 2x",
-    webp: "/_app/immutable/assets/social-dark.C8oiMtmL.webp 1x, /_app/immutable/assets/social-dark.DPvcYjaL.webp 2x",
-    jpeg: "/_app/immutable/assets/social-dark.DvHADRWW.jpg 1x, /_app/immutable/assets/social-dark.BGohrEtx.jpg 2x"
+    avif: "/_app/immutable/assets/social-dark.DhppiJ-A.avif 800w, /_app/immutable/assets/social-dark.CnQnOMkM.avif 1600w",
+    webp: "/_app/immutable/assets/social-dark.C8oiMtmL.webp 800w, /_app/immutable/assets/social-dark.DPvcYjaL.webp 1600w",
+    jpeg: "/_app/immutable/assets/social-dark.DvHADRWW.jpeg 800w, /_app/immutable/assets/social-dark.BGohrEtx.jpeg 1600w"
   },
   img: {
-    src: "/_app/immutable/assets/social-dark.BGohrEtx.jpg",
+    src: "/_app/immutable/assets/social-dark.BGohrEtx.jpeg",
     w: 1600,
     h: 1066
   }
