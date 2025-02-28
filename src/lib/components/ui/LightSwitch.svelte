@@ -7,7 +7,7 @@
 
 <button class="flex" onclick={toggleMode}>
   <div
-    class="flex h-8 w-8 items-center justify-center rounded-full bg-neutral-900 transition-colors duration-700 dark:bg-yellow-400"
+    class="dark:bg-accent flex h-8 w-8 items-center justify-center rounded-full bg-neutral-900 transition-colors duration-700"
   >
     <div
       class="absolute flex h-12 w-12 items-center justify-center text-neutral-100 transition-colors duration-700 dark:text-neutral-900"

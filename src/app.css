@@ -54,6 +54,11 @@
   }
 }
 
-@theme {
-  --font-sans: 'Nunito', sans-serif;
+@theme inline {
+  --font-sans: 'Gabarito', sans-serif;
+
+  --color-background: var(--color-stone-100);
+  --color-foreground: var(--color-stone-900);
+
+  --color-accent: var(--color-yellow-400);
 }

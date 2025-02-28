@@ -12,11 +12,11 @@
 </script>
 
 <header
-  class="fixed top-0 z-50 flex h-12 w-screen items-center justify-between border-b-2 border-yellow-400 bg-stone-100 px-4 dark:bg-stone-800"
+  class="border-accent bg-background dark:bg-foreground fixed top-0 z-50 flex h-12 w-screen items-center justify-between border-b-2 px-4"
 >
-  <a href="#presentation">
+  <a href="#presentation" aria-label="Retour à l'accueil">
     <svg
-      class="h-12 w-12 fill-stone-900 dark:fill-stone-100"
+      class="fill-foreground dark:fill-background h-12 w-12"
       viewBox="0 0 119 40"
     >
       <path
@@ -36,13 +36,13 @@
 {#if $open}
   <div use:melt={$portalled}>
     <div
-      class="fixed inset-0 z-50 w-screen bg-black/50"
+      class="bg-foreground/50 fixed inset-0 z-50 w-screen"
       transition:fade={{ duration: 150 }}
       use:melt={$overlay}
-></div>
+    ></div>
     <div
-      class="absolute left-0 top-0 z-50 h-screen w-3/4 max-w-[350px] bg-neutral-100 p-6 shadow-lg transition-colors duration-1000
-            focus:outline-hidden dark:bg-neutral-900"
+      class="bg-background dark:bg-foreground absolute top-0 left-0 z-50 h-screen w-3/4 max-w-[350px] p-6 shadow-lg transition-colors
+            duration-1000 focus:outline-hidden"
       transition:fly={{
         x: -350,
         duration: 300,

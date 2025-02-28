@@ -14,7 +14,7 @@
   {#if intersectionObserver.intersect}
     <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
       <div
-        class="flex w-full max-w-md flex-col gap-4 rounded-md bg-stone-100/90 p-4 dark:bg-stone-800/90"
+        class="bg-background/90 flex w-full max-w-md flex-col gap-4 rounded-md p-4 dark:bg-stone-800/90"
         transition:fly={{ y: 100, duration: 600 }}
       >
         <p class="w-full pb-2 text-center font-bold">
@@ -40,7 +40,7 @@
         <div class="flex"></div>
       </div>
       <div
-        class="flex w-full max-w-md flex-col gap-4 rounded-md bg-stone-100/90 p-4 dark:bg-stone-800/90"
+        class="bg-background/90 flex w-full max-w-md flex-col gap-4 rounded-md p-4 dark:bg-stone-800/90"
         transition:fly={{ y: -100, duration: 600 }}
       >
         <p class="w-full pb-2 text-center font-bold">

@@ -52,11 +52,11 @@
     <Presentation></Presentation>
     <Buffer>Mais vous êtes qui ?</Buffer>
     <History></History>
-    <Buffer>Quels genres d'événements ?</Buffer>
+    <Buffer>Tout types d'événements ?</Buffer>
     <Prestations></Prestations>
-    <Buffer>J'ai un truc à vous dire !</Buffer>
+    <Buffer>J'ai pleins de questions pour vous !</Buffer>
     <Contact></Contact>
-    <Buffer>En attendant, où peut-on vous retrouver ?</Buffer>
+    <Buffer>En attendant, on vous retrouves où ?</Buffer>
     <Social></Social>
     <!--Foreground></Foreground-->
   </div>

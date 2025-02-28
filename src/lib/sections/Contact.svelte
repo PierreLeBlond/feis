@@ -11,31 +11,26 @@
   bind:this={intersectionObserver.element}
 >
   {#if intersectionObserver.intersect}
-    <form
-      class="flex w-full max-w-md flex-col gap-4 rounded-md bg-stone-100/90 p-4 dark:bg-stone-800/90"
+    <div
+      class="bg-background/90 flex w-full max-w-md flex-col gap-4 rounded-md p-4 dark:bg-stone-800/90"
       transition:fly={{ x: -100, duration: 300 }}
     >
-      <p class="w-full pb-2 text-center font-bold">
-        Une fanfare <br /> pour ton événement ?
+      <p class="w-full pb-2 text-center font-bold dark:font-normal">
+        Une fanfare pour ton événement ? <br /> Nous mettons à disposition un formulaire,
+        qui nous permettra d'établir un devis :
       </p>
-      <div class="flex flex-col">
-        <label for="name" class="font-bold">nom</label>
-        <input id="name" type="text" class="h-12 rounded-md p-2" />
-      </div>
-      <div class="flex flex-col">
-        <label for="motif" class="font-bold">motif</label>
-        <textarea id="motif" class="h-32 rounded-md p-2"></textarea>
-      </div>
-      <button
-        type="submit"
-        class="flex w-56 justify-center self-end rounded-md bg-stone-900 p-4 font-bold text-neutral-100 dark:bg-stone-100 dark:text-neutral-900"
-        >Demander un devis</button
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScg3jCjgghlUmJaRlSHq_Z0StexW3m815FH3zvk-74GjJfgnA/viewform"
+        class=" bg-background border-foreground text-foreground flex w-56 justify-center self-end rounded-md border-2 p-4 font-bold"
+        >Accéder au formulaire</a
       >
-    </form>
+    </div>
 
     <a
       href="#social"
-      class="flex w-56 justify-center rounded-md bg-stone-900 p-4 font-bold text-neutral-100 dark:bg-stone-100 dark:text-neutral-900"
+      class=" bg-foreground flex w-56 justify-center rounded-md p-4 font-bold text-neutral-100"
       transition:fly={{ x: 100, duration: 300 }}
     >
       Tu veux nous rejoindre ?

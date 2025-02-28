@@ -3,11 +3,11 @@
   import { fly } from "svelte/transition";
 
   let prestations = [
-    "FESTIVALS",
     "EVENEMENTS PUBLICS",
-    "KERMESS",
-    "MARIAGES",
+    "FESTIVALS",
+    "ASSOCIATIFS",
     "CARITATIFS",
+    "MARIAGES",
     "CROISIÈRES",
   ];
 
@@ -26,7 +26,7 @@
     >
       {#each prestations as prestation}
         <li
-          class="flex w-56 items-center justify-center rounded-md bg-stone-100/80 p-4 font-bold dark:bg-stone-900/80"
+          class="bg-background/80 dark:bg-foreground/80 flex w-56 items-center justify-center rounded-md p-4 font-bold"
         >
           {prestation}
         </li>
@@ -34,7 +34,7 @@
     </ul>
     <a
       href="#contact"
-      class="flex w-56 justify-center rounded-md bg-stone-900 p-4 font-bold text-stone-100 dark:bg-stone-100 dark:text-stone-900"
+      class="text-background dark:bg-background bg-foreground dark:text-foreground flex w-56 justify-center rounded-md p-4 font-bold"
       transition:fly={{ y: 100, duration: 400, delay: 400 }}
     >
       Contactez nous !
