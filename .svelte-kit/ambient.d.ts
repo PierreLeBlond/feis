@@ -76,6 +76,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__sveltejs_enhanced_img: string;
 	export const PROMPT_COMMAND: string;
 	export const npm_package_dependencies_clsx: string;
+	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const INVOCATION_ID: string;
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
 	export const INIT_CWD: string;
@@ -109,7 +110,6 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_lint: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const npm_execpath: string;
-	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const npm_package_dependencies_tailwind_variants: string;
@@ -213,6 +213,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__sveltejs_enhanced_img: string;
 		PROMPT_COMMAND: string;
 		npm_package_dependencies_clsx: string;
+		npm_package_devDependencies__sveltejs_adapter_static: string;
 		INVOCATION_ID: string;
 		npm_package_devDependencies_prettier_plugin_svelte: string;
 		INIT_CWD: string;
@@ -246,7 +247,6 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_lint: string;
 		PNPM_SCRIPT_SRC_DIR: string;
 		npm_execpath: string;
-		npm_package_devDependencies__sveltejs_adapter_auto: string;
 		npm_package_devDependencies_svelte: string;
 		XDG_RUNTIME_DIR: string;
 		npm_package_dependencies_tailwind_variants: string;

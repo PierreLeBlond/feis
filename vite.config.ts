@@ -7,7 +7,6 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [sveltekit(), tailwindcss(), enhancedImages()],
-  base: "https://pierreleblond.github.io/feis/build",
   resolve: {
     alias: {
       $lib: path.resolve("./src/lib"),
