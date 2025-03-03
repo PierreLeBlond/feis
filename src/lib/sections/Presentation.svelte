@@ -29,7 +29,7 @@
             class="pl-[2.2rem] [text-shadow:_0_2px_4px_rgba(0,0,0,0.5)] sm:pl-[4rem]"
             transition:scale={{ delay: 700 }}
           >
-            ANFARES DES
+            ANFARE DES
           </p>
         </div>
         <div

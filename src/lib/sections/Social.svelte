@@ -20,35 +20,43 @@
         <p class="w-full pb-2 text-center font-bold">
           Tu veux suivre nos aventures et savoir où et quand nous voir jouer ?
         </p>
-        <ul class="flex items-center justify-center gap-8">
-          <li>
-            <a href="https://www.instagram.com/fanfarefeis/">
-              <Instagram></Instagram>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@FanfareFEIS">
-              <Youtube></Youtube>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/Fanfare.FEIS">
-              <Facebook></Facebook>
-            </a>
-          </li>
-        </ul>
-        <div class="flex"></div>
       </div>
       <div
         class="bg-background/90 flex w-full max-w-md flex-col gap-4 rounded-md p-4 dark:bg-stone-800/90"
-        transition:fly={{ y: -100, duration: 600 }}
+        transition:fly={{ y: 100, duration: 600 }}
       >
         <p class="w-full pb-2 text-center font-bold">
-          Tu joue du sax, du cuivre, de la flute, de la clarinette ou des
-          percussions, ou bien tu souhaiterais apprendre ? Contacte nous sur les
-          réseaux sociaux pour rejoindre la fanfare !
+          Tu souhaites rejoindre la fanfare ? <br />Tu joues du sax, du cuivre,
+          de la flûte, de la clarinette ou des percussions, ou bien tu
+          souhaiterais apprendre ?
         </p>
-        <div class="flex"></div>
+      </div>
+      <div class="flex w-full justify-center sm:col-span-2">
+        <div
+          class="bg-background/90 flex w-full max-w-md flex-col gap-4 rounded-md p-4 dark:bg-stone-800/90"
+          transition:fly={{ y: -100, duration: 600 }}
+        >
+          <p class="w-full pb-2 text-center font-bold">
+            Contacte nous sur les réseaux sociaux !
+          </p>
+          <ul class="flex items-center justify-center gap-8">
+            <li>
+              <a href="https://www.instagram.com/fanfarefeis/">
+                <Instagram></Instagram>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@FanfareFEIS">
+                <Youtube></Youtube>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Fanfare.FEIS">
+                <Facebook></Facebook>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   {/if}

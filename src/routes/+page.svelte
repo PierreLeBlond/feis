@@ -51,9 +51,9 @@
     <Presentation></Presentation>
     <Buffer>Mais qui sommes nous ?</Buffer>
     <History></History>
-    <Buffer>Tout types d'événements ?</Buffer>
+    <Buffer>Tout type d'événements ?</Buffer>
     <Prestations></Prestations>
-    <Buffer>Faisons connaissances !</Buffer>
+    <Buffer>Faisons connaissance !</Buffer>
     <Contact></Contact>
     <Buffer>Suivez nos aventures !</Buffer>
     <Social></Social>
