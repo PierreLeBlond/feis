@@ -19,7 +19,7 @@
       premières notes.<br />
       Depuis 20 ans déjà, elle anime les rues de Strasbourg et d'ailleurs.<br />
       Son répertoire est disco, electro et dansant.<br />
-      La fanfare propose ses prestations pour tout type d'événements !
+      La fanfare propose ses prestations pour tous types d'événements !
     </div>
   {/if}
 </section>

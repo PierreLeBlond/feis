@@ -51,7 +51,7 @@
     <Presentation></Presentation>
     <Buffer>Mais qui sommes nous ?</Buffer>
     <History></History>
-    <Buffer>Tout type d'événements ?</Buffer>
+    <Buffer>Tous types d'événements ?</Buffer>
     <Prestations></Prestations>
     <Buffer>Faisons connaissance !</Buffer>
     <Contact></Contact>
